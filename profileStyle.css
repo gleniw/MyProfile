@@ -1,141 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <header>
-
-    </header>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Glen Smith">
-    <meta name="description" content="This is my Sparta Profile">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="profileStyle.css" rel="styleSheet" />
-    <title>My Profile</title>
-    <style>
-        img {
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-        }
-    </style>
-</head>
-
-<body class="container">
-    <nav>
-        <ul class="flex-container">
-            <a href="index.html">Go To Profile</a>
-            <a href="projects.html">My Projects</a>
-
-            <a href="https://www.linkedin.com/in/glenlawlorsmith" target="_blank"> My LinkedIN</a>
-            <a href="https://www.github.com/gleniw/MyProfile" target="_blank"> My GitHub</a>
-        </ul>
-    </nav>
+*{
+    box-sizing: content-box;
+    margin: 5px;
+    padding: 5px;
+}
 
 
 
-    <header>
-        <!-- <img alt="my-pic" src="images\profilePicture.jpg" width="20%"> -->
+a:hover{
+    color: #DAF1DE;
+}
+
+a:active{
+color: #051F20;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+body{
+    background-color: #8eb69b;
+    color: #163832;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    }
 
 
-        <h1>Glen Smith</h1>
-        <h2>My Profile</h2>
-        <!-- <p><b>Welcome to my profile</p> -->
-    </header>
+.box-1{
+    background-color: #8eb69b;
+    padding: 20px;
+    margin: 10px;
+    border: 1px #163832 solid;
+}
 
-    <div>
-
-        <img src="images\profilePicture.jpg" alt="my-pic" width=20%>
-
-    </div>
-
-    <h4>
-        <div>
-            <p>Glen is a former sales professional experienced in a consultative approach, stakeholder
-                collaboration, and management of projects. These grew from foundations in his early academic studies in
-                Business and Management. He gained experience in running a team of people before moving on to the
-                delivery of successful projects offering design and technical guidance.</p>
-        </div>
-    </h4>
-
-    <h4>My Skills
-        <div>
-            <section class=" box-1">
-
-            </section>
-        </div>
-
-        <h4>My Experience
-            <div>
-                <section class=" box-1">
-
-                </section>
-            </div>
-
-            <h4>My Education
-                <div>
-                    <section class=" box-1">
-
-                    </section>
-                </div>
-                <div>
-
-                    <h4>Goals</h4>
-                    <section class=" box-1">
-                        <ol>
-                            <li>To become a C# Test Automation Engineer </li>
-
-                        </ol>
-                    </section>
-
-                </div>
-
-                <div>
-                    <h4>My Hobbies</h4>
-                    <section class=" box-1">
-                    <p>Outside of work, Glen enjoys the following: </p>
-
-                    <ul>
-
-                        <li>Architecture</li>
-                        <li>Bouldering</li>
-                        <li>Cycling</li>
-                        <li>Music</li>
-                        <li>Paddle Boarding</li>
-                        <li>Travel</li>
-                        <li>Yoga</li>
-
-                    </ul>
-                </section>
-                </div>
-
-
-                <div>
-                    <h3>Search for news in my Hometown</h3>
-                    <form action="https://www.bbc.co.uk/search">
-                        <label for="my-search">Search For</label>
-                        <input id="my-search" name="q" value="Isle of Wight">
-                        <input class="button" type="submit" value="submit">
-                    </form>
-                </div>
-
-                <div>
-                    <h4>My Favorite Music</h4>
-
-                    <iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/playlist/2wyxshb0Sgwb6q2zdTFAS1?utm_source=generator"
-                        width="50%" height="152" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-
-                </div>
-
-                <time></time>
-
-                <footer>
-                    <small>Copyright &#169; Sparta Global 2023 <cite>Glen Smith</cite></small>
-                </footer>
-</body>
-
-</html>
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}

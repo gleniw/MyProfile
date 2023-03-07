@@ -11,62 +11,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Glen Smith">
     <meta name="description" content="This is my Sparta Profile">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="profileStyle.css" rel="styleSheet" />
     <title>My Profile</title>
-
+    <style>
+        img {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+    </style>
 </head>
 
-<body>
-    <!-- <div> class="nav" -->
+<body class="container">
     <nav>
-        <a href="index.html">Go To Profile</a>
-        <a href="projects.html">My Projects</a>
+        <ul class="flex-container">
+            <a href="index.html">Go To Profile</a>
+            <a href="projects.html">My Projects</a>
 
-        <a href="https://www.linkedin.com/in/glenlawlorsmith" target="_blank"> My LinkedIN</a>
-        <a href="https://www.github.com/gleniw/MyProfile" target="_blank"> My GitHub</a>
-
-        <!-- </div> -->
+            <a href="https://www.linkedin.com/in/glenlawlorsmith" target="_blank"> My LinkedIN</a>
+            <a href="https://www.github.com/gleniw/MyProfile" target="_blank"> My GitHub</a>
+        </ul>
     </nav>
 
+
+
     <header>
-        <img alt="my-pic" src="images\profilePicture.jpg" width="20%">
+        <!-- <img alt="my-pic" src="images\profilePicture.jpg" width="20%"> -->
+
+
         <h1>Glen Smith</h1>
         <h2>My Profile</h2>
-        <p><b>Welcome to my profile,</b> <em>Enjoy</em></p>
+        <!-- <p><b>Welcome to my profile</p> -->
     </header>
 
-    <h4>My Skills
-        <div> <!-- <CAN INSERT CLASS TO APPLY FEATURES WITH CSS-->
+    <div>
+
+        <img src="images\profilePicture.jpg" alt="my-pic" width=20%>
+
+    </div>
+
+    <h4>
+        <div>
             <p>Glen is a former sales professional experienced in a consultative approach, stakeholder
                 collaboration, and management of projects. These grew from foundations in his early academic studies in
                 Business and Management. He gained experience in running a team of people before moving on to the
                 delivery of successful projects offering design and technical guidance.</p>
+        </div>
+    </h4>
 
+    <h4>My Skills
+        <div>
+            <section class=" box-1">
+
+            </section>
         </div>
 
         <h4>My Experience
             <div>
-                <p></p>
+                <section class=" box-1">
 
+                </section>
             </div>
 
             <h4>My Education
                 <div>
-                    <p></p>
+                    <section class=" box-1">
 
+                    </section>
                 </div>
                 <div>
 
                     <h4>Goals</h4>
+                    <section class=" box-1">
+                        <ol>
+                            <li>To become a C# Test Automation Engineer </li>
 
-                    <ol>
-                        <li>To become a C# Test Automation Engineer </li>
+                        </ol>
+                    </section>
 
-                    </ol>
                 </div>
 
                 <div>
                     <h4>My Hobbies</h4>
+                    <section class=" box-1">
                     <p>Outside of work, Glen enjoys the following: </p>
 
                     <ul>
@@ -80,24 +107,25 @@
                         <li>Yoga</li>
 
                     </ul>
+                </section>
                 </div>
 
 
-                <!-- <div>
-            <h3>Search for news</h3>
-            <form action="https://www.bbc.co.uk/search">
-                <label for="my-search">Search For</label>
-                <input id="my-search" name="q" value="Birmingham">
-                <input class="button" type="submit" value="submit">
-            </form>
-        </div> -->
+                <div>
+                    <h3>Search for news in my Hometown</h3>
+                    <form action="https://www.bbc.co.uk/search">
+                        <label for="my-search">Search For</label>
+                        <input id="my-search" name="q" value="Isle of Wight">
+                        <input class="button" type="submit" value="submit">
+                    </form>
+                </div>
 
                 <div>
                     <h4>My Favorite Music</h4>
 
                     <iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/playlist/37i9dQZF1F0sijgNaJdgit?utm_source=generator"
-                        width="20%" height="200" frameBorder="0" allowfullscreen=""
+                        src="https://open.spotify.com/embed/playlist/2wyxshb0Sgwb6q2zdTFAS1?utm_source=generator"
+                        width="50%" height="152" frameBorder="0" allowfullscreen=""
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         loading="lazy"></iframe>
 
